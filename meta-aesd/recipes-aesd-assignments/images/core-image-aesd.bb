@@ -1,5 +1,11 @@
 inherit core-image
 CORE_IMAGE_EXTRA_INSTALL += "aesd-assignments"
+CORE_IMAGE_EXTRA_INSTALL += "aesdchar-autostart"
+CORE_IMAGE_EXTRA_INSTALL += "ldd-modules-autostart"
+CORE_IMAGE_EXTRA_INSTALL += "aesdchar"
+CORE_IMAGE_EXTRA_INSTALL += "kernel-module-faulty"
+CORE_IMAGE_EXTRA_INSTALL += "kernel-module-hello"
+CORE_IMAGE_EXTRA_INSTALL += "ldd-scull"
 CORE_IMAGE_EXTRA_INSTALL += "openssh"
 inherit extrausers
 # See https://docs.yoctoproject.org/singleindex.html#extrausers-bbclass
