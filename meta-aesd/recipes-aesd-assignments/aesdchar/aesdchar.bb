@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 
 SRC_URI = "git://git@github.com/cu-ecen-aeld/assignments-3-and-later-MG525.git;protocol=ssh;branch=main"
 PV = "1.0+git${SRCPV}"
-SRCREV = "75debafb12c12bf8b4b6cfae55637c6b8eeb2990"
+SRCREV = "69dbdfd7d04967a5a0f1260d349c5701a97e587c"
 
 
 S = "${WORKDIR}/git/aesd-char-driver"
